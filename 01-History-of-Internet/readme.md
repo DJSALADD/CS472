@@ -161,11 +161,7 @@ simply has to drop and move on from information, while downloading a file can ta
 
 #### B. Key Questions You Asked
 
-List 4-6 questions showing how your investigation evolved. These should show progression - later questions should build on earlier answers. Format:
-
-1. First question
-2. Follow-up question
-3. [etc.]
+List 4-6 questions showing how your investigation evolved. These should show progression - later questions should build on earlier answers.
 
 1. Why does my Zoom call sometimes drop completely but when I download a file, it always completes eventually? What's different about how these handle reliability?
 2. Can you talk more about UDP? Sepcficially about what it is and how Zoom interacts with it in order to have smooth zoom calls?
