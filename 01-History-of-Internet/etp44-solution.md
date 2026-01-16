@@ -43,6 +43,9 @@ How does the modern implementation relate to what Cerf-Kahn proposed? Consider:
 
 The modern implementation relates to what Cerf-Kahn proposed in that the way in which standard non time sensitive data transfers like downloading a file still use the TCP protocol created by Cerf-Kahn, while 
 time sensitive data transfers like live Zoom calls can not use TCP due to the time sensitive nature. 
+Cerf-Kahn created the core networking ideas including packet switching, universal addressing, and ports, which allowed for both the TCP we know today to be created as well as the UDP protocol. These concepts were essential for the development of the modern day TCP and UDP because they provided an easy stepping stone to the effecient and seperate algorithms we know today. 
+The greatest change was the scale of the connections that is needed in order to make the modern day internet work
+This necessitated a lot of changes within TCP as well as IP going through many versions including IPv6. Cerf-Kahn did not anticipate the neccessity for a protocol that prioritized speed to the point where messages were not resent if lost like UDP was something they did not consider because they were focused on a stable two individiual computers with a consistent connection talking. Similarly they did not think about the security required to be built into their origianl TCP protocol that was then refined in the new TCP and UDP protocols. 
 
 #### D. Surprise Finding (4-5 sentences)
 
